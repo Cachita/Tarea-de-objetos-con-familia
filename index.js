@@ -57,4 +57,7 @@ const Mascota2 = {
     sexo: 'Macho',
 }
 const miFamilia = [Mama, Papa, Hijo1, Hijo2, Hijo3, Hija, Mascota1, Mascota2];
-console.log(miFamilia)
+
+for (let index = 0; index < miFamilia.length; index++) {
+    console.log(miFamilia[index]);
+}
